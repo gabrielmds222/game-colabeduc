@@ -1,8 +1,23 @@
 
 
-.container {
-    height: 100vh;
+#container {
+    height: 100%;
     margin: 0px 100px;
     background: #27282D;
     justify-content: center;
+    display: flex;
+}
+
+.btns {
+    display: grid;
+    padding: 100px;
+}
+
+.btn {
+    margin-bottom: 100px;
+}
+
+img {
+    width: 600px;
+    height: 600px;
 }
