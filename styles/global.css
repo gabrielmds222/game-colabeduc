@@ -9,6 +9,14 @@ html, body {
   background: #000;
 }
 
+main {
+  height: 100vh;
+  margin: 0px 100px;
+  background: #27282D;
+  justify-content: center;
+  display: flex;
+}
+
 a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;

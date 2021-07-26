@@ -1,13 +1,3 @@
-
-
-#container {
-    height: 100%;
-    margin: 0px 100px;
-    background: #27282D;
-    justify-content: center;
-    display: flex;
-}
-
 .btns {
     display: grid;
     padding: 100px;
@@ -15,6 +5,8 @@
 
 .btn {
     margin-bottom: 100px;
+    margin-right: 100px;
+    text-align: center;
 }
 
 img {
