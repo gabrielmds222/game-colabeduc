@@ -1,0 +1,14 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.grupo {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+p {
+    flex-wrap: wrap;
+}
