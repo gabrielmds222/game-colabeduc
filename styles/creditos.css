@@ -1,4 +1,4 @@
-img {
+/* img {
     width: 100px;
     height: 100px;
 }
@@ -11,4 +11,76 @@ img {
 
 p {
     flex-wrap: wrap;
+} */
+
+
+.cards {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.cards .card {
+    max-width: 300px;
+    height: 215px;
+    position: relative;
+    background: #27282D;
+    margin: 130px 10px;
+    padding: 20px 15px;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+}
+
+.cards .card.one {
+    border: 2px solid lightskyblue
+}
+
+.cards .card:hover {
+    height: 420px;
+}
+
+.cards .card .card-img{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    border-radius: 5px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+}
+
+.cards .card .card-img.one {
+    border: 2px solid lightskyblue
+}
+
+.cards .card .card-img img {
+    width: 100%;
+}
+
+.cards .card .content {
+    position: relative;
+    margin-top: -140px;
+    opacity: 0;
+    text-align: center;
+    visibility: hidden;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.cards .card .content.one {
+    color: lightskyblue
+}
+
+
+.cards .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition: 0.3s ease-in-out;
 }

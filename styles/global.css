@@ -7,15 +7,21 @@
 html, body {
   
   background: #000;
+  height: 100vh;
+  background: #27282D;
+  justify-content: center;
+  display: flex;
 }
 
+
+/* 
 main {
   height: 100vh;
   margin: 0px 100px;
   background: #27282D;
   justify-content: center;
   display: flex;
-}
+} */
 
 a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
