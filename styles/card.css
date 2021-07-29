@@ -1,11 +1,15 @@
 .card {
     position: absolute;
-    width: 340px;
+    width: 480px;
     height: 480px;
     top: 50%;
     left: 50%;
     cursor: pointer;
     transform: translate(-50%, -50%);
+}
+
+.card .front {
+  background: #4169E1;
 }
 
 .card:hover .front {
@@ -30,10 +34,38 @@
 
 .back {
     transform: rotateY(-180deg);
-    background: #fff;
+    background: rgb(65, 64, 64);
+    color: aliceblue;
+    display: grid;
+    padding: 20px;
+    border-image-source: url("https://images.vexels.com/media/users/3/131038/isolated/lists/8b05d53f25c756aee3950e1378dd897f-ovo-de-pascoa-com-listras-horizontais.png");
+    border-image-slice: 30;
+    border-image-repeat: round;
+}
+
+.back h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.back p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 30px;
 }
 
  img {
-    width: 340px;
+    width: 480px;
     height: 480px;
+}
+
+.go {
+    margin-right: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
 }
