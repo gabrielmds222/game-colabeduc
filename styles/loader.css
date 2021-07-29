@@ -23,7 +23,7 @@
     left: 0;
     height: 100%;
     width: 50%;
-    background: linear-gradient(to top, transparent, rgb(228, 10, 228, 0.4));
+    background: linear-gradient(to top, transparent, rgb(3, 187, 133, 0.4));
     background-size: 100px 180px;
     background-repeat: no-repeat;
     border-top-left-radius: 100px;
@@ -39,18 +39,18 @@
     width: 20px;
     transform: translateX(-50%);
     border-radius: 50%;
-    background: #e40ae4;
+    background: #03BB85;
     z-index: 10;
-    box-shadow: 0 0 10px #e40ae4,
-                0 0 20px #e40ae4,
-                0 0 30px #e40ae4,
-                0 0 40px #e40ae4,
-                0 0 50px #e40ae4,
-                0 0 60px #e40ae4,
-                0 0 70px #e40ae4,
-                0 0 80px #e40ae4,
-                0 0 90px #e40ae4,
-                0 0 100px #e40ae4;
+    box-shadow: 0 0 10px #03bb85,
+                0 0 20px #03BB85,
+                0 0 30px #03BB85,
+                0 0 40px #03BB85,
+                0 0 50px #03BB85,
+                0 0 60px #03BB85,
+                0 0 70px #03BB85,
+                0 0 80px #03BB85,
+                0 0 90px #03BB85,
+                0 0 100px #03BB85;
 }
 
 .load .loader span {
